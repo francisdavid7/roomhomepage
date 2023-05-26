@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News homepage</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--container opening div-->
+    <div class="container">
+        <header>
+            <nav>
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="open-menu"><img src="./asset/icon-menu.svg" alt="icon-menu"></label>
+                <label class="logo"><img src="./asset/logo.svg" alt="logo"></label>
+                <ul>
+                    <span class="menu">
+                        <label for="menu-toggle" class="close-menu"><img src="./asset/icon-menu-close.svg" alt="icon-menu-close"></label>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">New</a></li>
+                        <li><a href="#">Popular</a></li>
+                        <li><a href="#">Trending</a></li>
+                        <li><a href="#">Categories</a></li>
+                    </span>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <div class="middle-contents">
+                <div class="section col">
+                    <picture>
+                        <source media="(min-width: 376px)" srcset="./asset/image-web-3-desktop.jpg">
+                        <source media="(max-width: 375px)" srcset="./asset/image-web-3-mobile.jpg" width="100%">
+                        <img src="./asset/image-web-3-desktop.jpg" alt="image-web-3-desktop" width="100%">
+                    </picture>
+                    <div class="web">
+                        <div class="web-txt col"><h1>The Bright <br>Future of <br>Web 3.03?</h1></div>
+                        <div class="web-btn col">
+                            <p>We dive into the next evolution of web that <br>cloaims to put the power of the platforms back <br>into the hands of the people. But is it really <br>fulfulling its proise</p>
+                            <button class="web-button">READ MORE</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="aside col">
+                    <h1>NEW</h1>
+                    <h4><a href="#">Hydrogen VS Electric Gas</a></h4>
+                    <p>Will hydrogen-fueled cars ever catch up <br>to Evs?</p>
+                    <hr>
+                    <h4 style="margin-top: 24px;"><a href="#">The Downside of AI Artistry</a></h4>
+                    <p>What are the possible adverse effect of <br>on-Demand AI generation</p>
+                    <hr>
+                    <h4 style="margin-top: 24px;"><a href="#">Is VC Funding Drying Up</a></h4>
+                    <p>Private funding by VC firms is down 50% <br>YOY. We take a look at what that means</p>
+                </div>
+                <div class="down-elements col">
+                    <div class="cards col">
+                        <div class="col sub1"><img src="./asset/image-retro-pcs.jpg" alt="image-retro-pcs" width="100%" height="100%"></div>
+                        <div class="col sub">
+                            <span>01</span>
+                            <h5><a href="#">Reviving Retro PCs</a></h5>
+                            <p>What happens when old PCs are given modern upgrades?</p>
+                        </div>
+                    </div>
+                    <div class="cards col sec">
+                        <div class="col sub1"><img src="./asset/image-top-laptops.jpg" alt="image-top-laptops" width="100%" height="100%"></div>
+                        <div class="col sub">
+                            <span>02</span>
+                            <h5><a href="#">Top 10 Laptops of 2022</a></h5>
+                            <p>Our modern picks for various needs and budgets.</p>
+                        </div>
+                    </div>
+                    <div class="cards col last">
+                        <div class="col sub1"><img src="./asset/image-gaming-growth.jpg" alt="image-gaming-growth" width="100%" height="100%"></div>
+                        <div class="col sub">
+                            <span>03</span>
+                            <h5><a href="#">The Growth of Gaming</a></h5>
+                            <p>How the pandemic has sparked fresh opportunities.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </main>
+
+
+
+
+
+         
+
+<!--container closing div-->
+    </div>
+    
+</body>
+</html>
